@@ -11,4 +11,4 @@ The Android architecture consists of four main components:
 
 - This architecture allows for a high degree of customization and flexibility, making it possible for developers to build a wide range of apps for Android devices.
 
-<img src="./images/android.png" width=300>
+<img src="./images/android.png" width=800>
