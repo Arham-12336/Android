@@ -1,0 +1,6 @@
+## Introduction to Mobile Application Development
+Mobile application development is the process of making software for smartphones and digital assistants, most commonly for Android and iOS. The software can be preinstalled on the device, downloaded from a mobile app store, or accessed through a mobile web browser. The programming and markup languages used for this software development include Java, Swift, C#, and HTML5.
+
+Mobile app development is rapidly growing. From retail, telecommunications, and e-commerce to insurance, healthcare, and government, organizations across industries must meet user expectations for real-time, convenient ways to conduct transactions and access information. Today, mobile devices—and the mobile applications that unlock their value—are the most popular way for people and businesses to connect to the internet. To stay relevant, responsive, and successful, organizations must develop the mobile applications that their customers, partners, and employees demand.
+
+Yet mobile application development might seem daunting. Once you’ve selected the OS platform or platforms, you need to overcome the limitations of mobile devices and usher your app all the way past the potential hurdles of distribution. Fortunately, you can streamline your application development journey by following a few basic guidelines and best practices.
