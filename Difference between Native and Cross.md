@@ -35,6 +35,19 @@ Native mobile app development refers to building apps specifically for a single 
 ## Cross Platform
 Cross-platform mobile app development refers to building apps that can run on multiple platforms (such as iOS, Android, and web) with a single codebase. This approach aims to reduce development time and costs by allowing developers to write code once and deploy it on multiple platforms. The trade-off is that the app may not perform as well as a native app and may not have the same level of access to platform-specific features.
 
+### Advantages of cross app development:
+- Cost-Effective: Cross-platform development allows for the creation of one codebase that can be used across multiple platforms, reducing the cost and time required for development.
+
+- Faster Time-to-Market: Cross-platform development allows for a faster time-to-market, as developers only need to write code once and can deploy the app on multiple platforms.
+
+- Wider Reach: Cross-platform apps have the potential to reach a wider audience, as they can be deployed on multiple platforms and reach users on multiple devices.
+
+- Ease of Maintenance: Cross-platform apps are easier to maintain, as fixes and updates can be made to the single codebase, which can then be deployed across multiple platforms.
+
+- Shared Code: Cross-platform development allows for the reuse of code and components, which can save time and reduce development costs.
+
+- Cross-Platform Consistency: Cross-platform development ensures a consistent user experience across platforms, as the app uses the same codebase on all platforms.
+
 ### Disadvantages of cross app development
 - Performance: Cross-platform apps may not perform as well as native apps because they rely on a middleware layer to run on multiple platforms.
 
@@ -48,18 +61,7 @@ Cross-platform mobile app development refers to building apps that can run on mu
 
 - Maintenance and Updates: Keeping cross-platform apps up-to-date can be time-consuming and require coordination between multiple teams and tools.
 
-### Advantages of cross app development:
-- Cost-Effective: Cross-platform development allows for the creation of one codebase that can be used across multiple platforms, reducing the cost and time required for development.
 
-- Faster Time-to-Market: Cross-platform development allows for a faster time-to-market, as developers only need to write code once and can deploy the app on multiple platforms.
-
-- Wider Reach: Cross-platform apps have the potential to reach a wider audience, as they can be deployed on multiple platforms and reach users on multiple devices.
-
-- Ease of Maintenance: Cross-platform apps are easier to maintain, as fixes and updates can be made to the single codebase, which can then be deployed across multiple platforms.
-
-- Shared Code: Cross-platform development allows for the reuse of code and components, which can save time and reduce development costs.
-
-- Cross-Platform Consistency: Cross-platform development ensures a consistent user experience across platforms, as the app uses the same codebase on all platforms.
 
 
 
