@@ -15,7 +15,6 @@ Configuring the manifest
 For your app to be able to use activities, you must declare the activities, and certain of their attributes, in the manifest.
 Declare activities
 To declare your activity, open your manifest file and add an <activity> element as a child of the <application> element. For example:
-```
 
 <manifest ... >
   <application ... >
@@ -25,7 +24,6 @@ To declare your activity, open your manifest file and add an <activity> element 
   ...
 </manifest >
 
-```
 The only required attribute for this element is android:name, which specifies the class name of the activity. You can also add attributes that define activity characteristics such as label, icon, or UI theme. For more information about these and other attributes, see the <activity> element reference documentation.
 
 <img align="center" src="./images/acitivity.png" width=400>
