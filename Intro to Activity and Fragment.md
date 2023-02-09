@@ -57,4 +57,8 @@ The image below shows how the fragment lifecycle methods are classified.
 
 <img align="center" src="./images/fragment.png" width=400>
 
+### Fragment and activity context
+Context is an important aspect of Android development. It allows you to start different activities, processes, and even displays certain messages to the user.
+
+The activity context is returned by using the getActivity method. Note that this method is only applicable when the fragment is active. Using the getActivity function when the fragment is paused returns a null value.
 
