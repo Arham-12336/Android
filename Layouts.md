@@ -23,7 +23,7 @@ XML, or Extensible Markup Language, is a markup language used to store and excha
 
 For example, here's a simple XML layout that defines a text view and a button:
 
-```android
+```kotlin
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -41,8 +41,8 @@ For example, here's a simple XML layout that defines a text view and a button:
         android:layout_height="wrap_content"
         android:text="Click Me!" />
 </LinearLayout>
-
 ```
+
 In this example, the LinearLayout is used as the root view group and the TextView and Button are its children. The attributes of each UI element define its appearance, such as the text size, color, and position, as well as its behavior, such as how it should respond to user interactions.
 
 XML is an important part of the Android development process and is used throughout an app's lifecycle, from designing the layout to storing data and defining animations. It provides a clear and simple way to define the structure and behavior of an app's UI, making it easier for developers to create, maintain, and improve their apps.
