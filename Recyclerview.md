@@ -51,7 +51,8 @@ Step 1: Add the RecyclerView library to your project's build.gradle file.
 
 Step 2: Create a layout file for each item in the list. This layout file should define the views that represent the data for each item.
 
-```android
+```kotlin
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
@@ -63,13 +64,13 @@ Step 2: Create a layout file for each item in the list. This layout file should 
 
 </LinearLayout>
 
-```android
+```
 
 
 
 Step 3: Create a custom adapter class that extends the RecyclerView.Adapter class. In this class, you need to define the following methods:
 
-```android
+```kotlin
 
 class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
 
@@ -102,7 +103,8 @@ Step 4: Create a ViewHolder class
 
  onCreateViewHolder: Creates a new ViewHolder object and inflates the item layout file.
 
- ```android
+ ```kotlin
+
     class MyViewHolder extends RecyclerView.ViewHolder {
 
         TextView textView;
@@ -118,7 +120,8 @@ Step 4: Create a ViewHolder class
 
 Step 5: In your activity or fragment, create an instance of the RecyclerView and set its layout manager and adapter.
 
-```android
+```kotlin 
+
 public class MainActivity extends AppCompatActivity {
 
     private RecyclerView recyclerView;
