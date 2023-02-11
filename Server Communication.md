@@ -1,11 +1,11 @@
 # Remote server access:
-○ Remote server access in app development refers to the ability to
+Remote server access in app development refers to the ability to
 connect to and control a server from a remote location, typically
 through the internet. This allows developers to build, test, and deploy
 their applications on a remote server without being physically
 present.
 
-○ Some common methods for remote server access include:
+Some common methods for remote server access include:
 
 ■ SSH (Secure Shell) - A secure protocol for remote access to
 servers.
@@ -31,54 +31,55 @@ anywhere with an internet connection.
 
 # Consuming API:
 
-○ Consuming an API in app development refers to the process of
+Consuming an API in app development refers to the process of
 making requests to an API (Application Programming Interface) and
 processing the response in order to retrieve data or perform actions
 within an application.
 
-○ API consumption can be done using various programming
+API consumption can be done using various programming
 languages and technologies, depending on the specific needs of the
 application and the API being consumed.
 
-○ Here are some steps involved in consuming an API:
+Here are some steps involved in consuming an API:
 
-■ Endpoint discovery - Determine the endpoints (URLs) of the
-API that you want to consume and what data or actions they
-provide.
+    ■ Endpoint discovery - Determine the endpoints (URLs) of the
+    API that you want to consume and what data or actions they
+    provide.
 
-■ Authentication - Some APIs may require authentication in
-order to access their data or perform actions. This could
-include providing an API key, OAuth tokens, or other form of
-authentication.
+    ■ Authentication - Some APIs may require authentication in
+    order to access their data or perform actions. This could
+    include providing an API key, OAuth tokens, or other form of
+    authentication.
 
-■ Making requests - Use a library or technology (such as HTTP
-requests in cURL or a REST client) to make requests to the
-API endpoints and retrieve the response data.
+    ■ Making requests - Use a library or technology (such as HTTP
+    requests in cURL or a REST client) to make requests to the
+    API endpoints and retrieve the response data.
 
-■ Processing the response - The response from the API will
-likely be in a specific format (such as JSON or XML), which
-must be processed and converted into a usable format for the
-application.
+    ■ Processing the response - The response from the API will
+    likely be in a specific format (such as JSON or XML), which
+    must be processed and converted into a usable format for the
+    application.
 
-■ Caching and error handling - Consider caching the response
-data for a certain amount of time and handling errors that may
-occur during the API request and response process.
-○ Consuming APIs is a common practice in app development, as it
+    ■ Caching and error handling - Consider caching the response
+    data for a certain amount of time and handling errors that may
+    occur during the API request and response process.
+
+Consuming APIs is a common practice in app development, as it
 allows applications to access and utilize data and functionality from
 other sources.
 
 
 # Http and Https:
-○ HTTP (Hypertext Transfer Protocol) and HTTPS (Hypertext Transfer
+HTTP (Hypertext Transfer Protocol) and HTTPS (Hypertext Transfer
 Protocol Secure) are communication protocols used to transfer data
 over the internet.
 
-○ HTTP is a standard protocol for transmitting data over the web, used
+HTTP is a standard protocol for transmitting data over the web, used
 to retrieve resources such as web pages and images. HTTP is an
 insecure protocol and does not protect the data being transmitted,
 making it vulnerable to interception and manipulation.
 
-○ HTTPS is an extension of HTTP that adds an extra layer of security
+HTTPS is an extension of HTTP that adds an extra layer of security
 by using SSL (Secure Sockets Layer) or TLS (Transport Layer
 Security) encryption to protect the data being transmitted. When a
 client (e.g. a web browser) establishes a connection to a server
@@ -86,48 +87,48 @@ using HTTPS, the server provides a digital certificate to the client to
 prove its identity, and the two parties negotiate an encrypted
 connection.
 
-○ In app development, it is common to use HTTP for local
+In app development, it is common to use HTTP for local
 development and testing, and HTTPS for production environments
 where security is a concern. When making HTTP or HTTPS
 requests in an app, developers typically use a library or API that
 provides an easy-to-use interface for making the requests and
 handling the responses.
 
-○ In conclusion, HTTPS is a secure version of HTTP and is
+In conclusion, HTTPS is a secure version of HTTP and is
 recommended for transmitting sensitive data over the internet,
 including in app development.
 
 # Process of interacting with the server:
 
-○ Interacting with a server in app development typically involves the
+Interacting with a server in app development typically involves the
 following steps:
 
-■ Establishing a connection: The app establishes a connection
-to the server using a network protocol, such as HTTP or
-HTTPS. This typically involves specifying the URL of the
-server and any necessary credentials for authentication.
+    ■ Establishing a connection: The app establishes a connection
+    to the server using a network protocol, such as HTTP or
+    HTTPS. This typically involves specifying the URL of the
+    server and any necessary credentials for authentication.
 
-■ Making a request: The app makes a request to the server,
-specifying the type of request (e.g. GET, POST), the endpoint
-URL, and any necessary parameters (e.g. query parameters,
-request body).
+    ■ Making a request: The app makes a request to the server,
+    specifying the type of request (e.g. GET, POST), the endpoint
+    URL, and any necessary parameters (e.g. query parameters,
+    request body).
 
-■ Processing the response: The server processes the request
-and returns a response to the app. The response may include
-data or status information about the request.
+    ■ Processing the response: The server processes the request
+    and returns a response to the app. The response may include
+    data or status information about the request.
 
-■ Parsing the response: The app parses the response from the
-server and converts it into a usable format, such as a JSON
-object or an XML document.
+    ■ Parsing the response: The app parses the response from the
+    server and converts it into a usable format, such as a JSON
+    object or an XML document.
 
-■ Updating the UI: If the response includes data, the app
-updates the user interface to display the data.
+    ■ Updating the UI: If the response includes data, the app
+    updates the user interface to display the data.
 
-■ Error handling: The app should also handle any errors that
-may occur during the request and response process, such as
-network errors or server-side errors.
+    ■ Error handling: The app should also handle any errors that
+    may occur during the request and response process, such as
+    network errors or server-side errors.
 
-○ The process of interacting with a server in app development is an
+The process of interacting with a server in app development is an
 important aspect of many mobile and web applications, as it allows
 the app to retrieve data and perform actions on behalf of the user.
 The specific details of the process can vary depending on the type of
@@ -136,7 +137,7 @@ described above provide a general overview of the process.
 
 # How to secure communication between mobile app and server through SSL certificate:
 
-○ Securing the communication between a mobile app and a server
+Securing the communication between a mobile app and a server
 through an SSL certificate involves the following steps:
 
 ■ Obtain an SSL certificate: The first step is to obtain a valid
